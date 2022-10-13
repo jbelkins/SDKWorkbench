@@ -1,0 +1,19 @@
+# Standard SPM .gitignore contents
+.DS_Store
+/SDKWorkbench/.build
+/SDKWorkbench/Packages
+/SDKWorkbench/*.xcodeproj
+xcuserdata/
+DerivedData/
+.swiftpm/config/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc
+
+# VSCode
+.vscode/
+/SDKWorkbench/.devcontainer/.env
+
+# Local copies of packages
+/aws-sdk-swift
+/smithy-swift
+/aws-crt-swift
