@@ -1,6 +1,6 @@
 {
-    "name": "Swift 5.7",
-    "image": "swift:5.7-amazonlinux2",
+    "name": "Swift 5.5",
+    "image": "swift:5.5-amazonlinux2",
     "extensions": [
       "sswg.swift-lang"
     ],
