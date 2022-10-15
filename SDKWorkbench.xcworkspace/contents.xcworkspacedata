@@ -5,12 +5,12 @@
       location = "group:SDKWorkbench">
    </FileRef>
    <FileRef
-      location = "group:aws-crt-swift">
+      location = "group:../aws-sdk-swift">
    </FileRef>
    <FileRef
-      location = "group:aws-sdk-swift">
+      location = "group:../smithy-swift">
    </FileRef>
    <FileRef
-      location = "group:smithy-swift">
+      location = "group:../aws-crt-swift">
    </FileRef>
 </Workspace>
