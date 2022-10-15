@@ -1,0 +1,70 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AwsCrt",
+        "repositoryURL": "https://github.com/awslabs/aws-crt-swift.git",
+        "state": {
+          "branch": null,
+          "revision": "d654b82a55aec736ad8b4354027acab17394a060",
+          "version": "0.2.2"
+        }
+      },
+      {
+        "package": "AWSSwiftSDK",
+        "repositoryURL": "https://github.com/awslabs/aws-sdk-swift.git",
+        "state": {
+          "branch": "jbe/to_be_main",
+          "revision": "d5eaeb3b5632eccb708214f5939adf59a93a78f4",
+          "version": null
+        }
+      },
+      {
+        "package": "ClientRuntime",
+        "repositoryURL": "https://github.com/awslabs/smithy-swift.git",
+        "state": {
+          "branch": null,
+          "revision": "5b7b9bdc459b599d394d6f38ef6c61d6f0ed2090",
+          "version": "0.3.0"
+        }
+      },
+      {
+        "package": "swift-argument-parser",
+        "repositoryURL": "https://github.com/apple/swift-argument-parser.git",
+        "state": {
+          "branch": null,
+          "revision": "9f39744e025c7d377987f30b03770805dcb0bcd1",
+          "version": "1.1.4"
+        }
+      },
+      {
+        "package": "swift-collections",
+        "repositoryURL": "https://github.com/apple/swift-collections",
+        "state": {
+          "branch": null,
+          "revision": "f504716c27d2e5d4144fa4794b12129301d17729",
+          "version": "1.0.3"
+        }
+      },
+      {
+        "package": "swift-log",
+        "repositoryURL": "https://github.com/apple/swift-log.git",
+        "state": {
+          "branch": null,
+          "revision": "6fe203dc33195667ce1759bf0182975e4653ba1c",
+          "version": "1.4.4"
+        }
+      },
+      {
+        "package": "XMLCoder",
+        "repositoryURL": "https://github.com/MaxDesiatov/XMLCoder.git",
+        "state": {
+          "branch": null,
+          "revision": "ca932442d7481700f5434a7b138c47dd42d9902b",
+          "version": "0.14.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

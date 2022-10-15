@@ -1,7 +1,7 @@
 import XCTest
 import class Foundation.Bundle
 
-final class SDKWorkbenchTests: XCTestCase {
+final class CLIToolTests: XCTestCase {
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
@@ -15,7 +15,7 @@ final class SDKWorkbenchTests: XCTestCase {
         // Mac Catalyst won't have `Process`, but it is supported for executables.
         #if !targetEnvironment(macCatalyst)
 
-        let fooBinary = productsDirectory.appendingPathComponent("SDKTestApp")
+        let fooBinary = productsDirectory.appendingPathComponent("CLITool")
 
         let process = Process()
         process.executableURL = fooBinary

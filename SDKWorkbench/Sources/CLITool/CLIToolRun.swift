@@ -3,7 +3,7 @@ import AWSS3
 import ClientRuntime
 
 @main
-struct SDKWorkbenchRun: AsyncParsableCommand {
+struct CLIToolRun: AsyncParsableCommand {
     
     func run() async throws {
         let s3Client = try S3Client(region: "us-east-1")

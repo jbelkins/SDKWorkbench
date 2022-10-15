@@ -12,12 +12,12 @@ let package = Package(
     ],
     targets: [
         .executableTarget(
-            name: "SDKWorkbench", 
+            name: "CLITool", 
             dependencies: [
                 .product(name: "AWSS3", package: "aws-sdk-swift"),
                 .product(name: "AWSSTS", package: "aws-sdk-swift"),
                 .product(name: "ArgumentParser", package: "swift-argument-parser")]
         ),
-        .testTarget(name: "SDKWorkbenchTests", dependencies: ["SDKWorkbench"]),
+        .testTarget(name: "CLIToolTests", dependencies: ["CLITool"]),
     ]
 )
