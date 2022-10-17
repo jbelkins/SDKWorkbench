@@ -7,6 +7,7 @@
     "runArgs": [
       "--env-file", "${localWorkspaceFolder}/.devcontainer/.env"
     ],
+    "forwardPorts": [8080],
     "onCreateCommand": "yum install -y openssl-devel python3.7",
     "workspaceMount": "source=${localWorkspaceFolder}/../..,target=/workspace,type=bind",
     "workspaceFolder": "/workspace/SDKWorkbench/SDKWorkbench"
