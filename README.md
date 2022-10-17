@@ -85,7 +85,9 @@ AWS_SECRET_ACCESS_KEY=<your AWS Secret Access Key>
 
 Once the VSCode editor opens, the package will install dependencies; they will show in the bottom of the "Explorer" pane on the left.
 
-5. Develop on, then run, one of the targets in the `SDKWorkbench` package to use and test SDK features.
+5. VSCode does not start with any packages in "edit mode".  To place packages in edit mode, see below.
+
+6. Develop on, then run, one of the targets in the `SDKWorkbench` package to use and test SDK features.
 
 ### About the Swift SDK Dev Container
 - The dev container is built by VSCode as-needed from the official Swift Docker containers, so there is no reliance on any pre-built container that must be maintained.
@@ -104,6 +106,7 @@ To place a package in VSCode edit mode, perform the following:
 $ swift package edit --path /workspace/<package-name> <package-name>
 ```
 Once complete, you should see the package marked as "editing" in the Package Dependencies pane.
+
 - To stop editing, open the VSCode Bash terminal and type:
 ```
 $ swift package unedit <package-name>
