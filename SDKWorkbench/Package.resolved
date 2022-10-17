@@ -11,11 +11,11 @@
         }
       },
       {
-        "package": "AWSSwiftSDK",
+        "package": "aws-sdk-swift",
         "repositoryURL": "https://github.com/awslabs/aws-sdk-swift.git",
         "state": {
           "branch": "jbe/to_be_main",
-          "revision": "d5eaeb3b5632eccb708214f5939adf59a93a78f4",
+          "revision": "959db4fc7d4e9ee151a512d5bb951c16a962186c",
           "version": null
         }
       },

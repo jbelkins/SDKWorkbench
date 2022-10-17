@@ -14,8 +14,6 @@ let package = Package(
         .executableTarget(
             name: "CLITool", 
             dependencies: [
-                .product(name: "AWSS3", package: "aws-sdk-swift"),
-                .product(name: "AWSSTS", package: "aws-sdk-swift"),
                 .product(name: "ArgumentParser", package: "swift-argument-parser")]
         ),
         .testTarget(name: "CLIToolTests", dependencies: ["CLITool"]),
