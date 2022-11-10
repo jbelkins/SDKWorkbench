@@ -9,6 +9,9 @@ DerivedData/
 .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
 .netrc
 
+# Resolved packages (no need to lock)
+/SDKWorkbench/Package.resolved
+
 # VSCode
 .vscode/
 /SDKWorkbench/.devcontainer/.env
