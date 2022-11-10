@@ -63,14 +63,14 @@ There are two ways (at least!) to develop with Visual Studio Code:
 To develop with VSCode:
 
 1. Perform the "Initial Setup" steps above, and install Visual Studio Code.
-- If you want to run directly on your development machine, install Swift from one of the options [here](https://www.swift.org/download/).
+- If you want to compile & run directly on your development machine, install Swift from one of the options [here](https://www.swift.org/download/).
 
 2. Open VSCode and install the following plugins:
 - Swift (`sswg.swift-lang`)
 - Remote - SSH (`ms-vscode-remote.remote-ssh`)
 - Dev Containers (`ms-vscode-remote.remote-containers`)
 
-3. If you are using dev containers, perform the following on the machine ("host machine") that will host your dev container.  Your container may either run on the same machine you are running VSCode on, or on a remote host.
+3. If you are using dev containers, perform the following on the machine ("host machine") that will host your dev container.  Your host machine may be either the same machine you are running VSCode on, or on a remote host.
 - Either install Docker and start it as a service, or install and start Docker Desktop.
 - Re-perform the steps in "Initial Setup" above on the host machine, if not already performed there.
 - The container will need AWS credentials.  To provide them, create a file named `.env` at `SDKWorkbench/SDKWorkbench/.devcontainer/` with contents:
@@ -96,15 +96,13 @@ Once the VSCode editor opens, the package will install dependencies; they will s
 - The container will "bind" your working folder to the `/workspace` mount point in the container.  So while the container is open, changes made either in the container or on you dev machine's filesystem will show up in both places.
 
 ### Placing a Swift Package in edit mode under VSCode
-- Swift Package Manager has two "edit modes" that may be used with VSCode.  The one we will be using with our working copies is the `--path` option, which sets up Swift to build from a local copy of the package that you supply.  (The other form of `swift package edit`, where you make edits on SPM's own checkout, will not be used here.)
-
 To use VSCode edit mode, perform the following:
 - Open the `SDKWorkbench` package in VSCode as instructed above, and let it finish resolving dependencies.
 - In the "Package Dependencies" pane, find the package you want to edit, and right click.  Select "Use Local Version" then navigate to the root folder for your local copy of the package.
 - The package reference in the "Package Dependencies" pane should now have a pencil icon, and the reference for that package should change to "editing". 
 - To stop editing, right-click the package under edit and select "Revert To Original Version".
 
-- Note that VSCode uses standard SPM commands to implement its edit mode; you can enter edit mode identically by opening the VSCode Bash terminal and typing:
+- Note that VSCode uses the standard SPM `swift package edit` command to implement its edit mode; you can enter edit mode identically by opening the VSCode Bash terminal and typing:
 ```
 $ swift package edit --path /workspace/<package-name> <package-name>
 ```
