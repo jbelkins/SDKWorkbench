@@ -33,6 +33,5 @@ let package = Package(
         .testTarget(name: "CLIToolTests", dependencies: ["CLITool"]),
         .testTarget(name: "VaporAppTests", dependencies: [.target(name: "VaporApp"), .product(name: "XCTVapor", package: "vapor")
         ])
-    ],
-    swiftLanguageVersions: [.version("5.5")]
+    ]
 )
