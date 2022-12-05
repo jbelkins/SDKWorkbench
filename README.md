@@ -73,12 +73,12 @@ To develop with VSCode:
 3. If you are using dev containers, perform the following on the machine ("host machine") that will host your dev container.  Your host machine may be either the same machine you are running VSCode on, or on a remote host.
 - Either install Docker and start it as a service, or install and start Docker Desktop.
 - Re-perform the steps in "Initial Setup" above on the host machine, if not already performed there.
-- The container will need AWS credentials.  To provide them, create a file named `.env` at `SDKWorkbench/SDKWorkbench/.devcontainer/` with contents:
+- The container will need AWS credentials.  To provide them, create a file named `.env` in your working folder with contents:
 ```
 AWS_ACCESS_KEY_ID=<your AWS Access Key ID>
 AWS_SECRET_ACCESS_KEY=<your AWS Secret Access Key>
 ```
-(This file will be ignored by Git so your credentials are not committed.)
+(This file will be outside any Git repo so your credentials are not committed.)
 - Open Docker Desktop & allow it to complete startup.
 
 4. Open the SDKWorkbench package in VSCode:
