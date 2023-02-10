@@ -10,7 +10,4 @@
    <FileRef
       location = "group:../smithy-swift">
    </FileRef>
-   <FileRef
-      location = "group:../aws-crt-swift">
-   </FileRef>
 </Workspace>
