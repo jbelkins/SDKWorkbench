@@ -11,6 +11,7 @@ DerivedData/
 
 # Resolved packages (no need to lock)
 /SDKWorkbench/Package.resolved
+/SDKWorkbench.xcworkspace/xcshareddata/swiftpm/Package.resolved
 
 # VSCode
 .vscode/
