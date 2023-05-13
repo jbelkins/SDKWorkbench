@@ -1,6 +1,6 @@
 {
-    "name": "Swift 5.8",
-    "image": "swift:5.8-amazonlinux2",
+    "name": "Swift 5.5",
+    "image": "swift:5.5-amazonlinux2",
     "customizations": {
       "vscode": {
         "extensions": [
@@ -11,7 +11,10 @@
     "runArgs": [
       "--env-file", "${localWorkspaceFolder}/../../.env"
     ],
-    "onCreateCommand": "yum install -y openssl-devel python3.7",
+    "containerEnv": {
+      "JAVA_HOME": "/usr/lib/jvm/java-17-amazon-corretto.x86_64"
+    },
+    "onCreateCommand": "yum install -y openssl-devel python3.7 java-17-amazon-corretto-devel",
     "workspaceMount": "source=${localWorkspaceFolder}/../..,target=/workspace,type=bind",
     "workspaceFolder": "/workspace/SDKWorkbench/SDKWorkbench"
 }
