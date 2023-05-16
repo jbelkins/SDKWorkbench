@@ -7,7 +7,8 @@ let package = Package(
     name: "SDKWorkbench",
     platforms: [.macOS(.v12), .iOS(.v15)],
     dependencies: [
-        .package(url: "https://github.com/awslabs/aws-sdk-swift.git", from: "0.9.2"),
+        .package(url: "https://github.com/awslabs/aws-sdk-swift.git", branch: "main"),
+        .package(url: "https://github.com/awslabs/smithy-swift.git", branch: "main"),
         .package(url: "https://github.com/apple/swift-argument-parser.git", from: "1.0.0"),
     ],
     targets: [
