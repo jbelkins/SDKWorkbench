@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "9651505F-72A3-4E74-809E-A16CD81EC780",
+      "name" : "AWS Integration Tests",
+      "options" : {
+        "testExecutionOrdering" : "random"
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:..\/aws-sdk-swift",
+        "identifier" : "AWSKinesisIntegrationTests",
+        "name" : "AWSKinesisIntegrationTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/aws-sdk-swift",
+        "identifier" : "AWSS3IntegrationTests",
+        "name" : "AWSS3IntegrationTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/aws-sdk-swift",
+        "identifier" : "AWSTranscribeStreamingIntegrationTests",
+        "name" : "AWSTranscribeStreamingIntegrationTests"
+      }
+    }
+  ],
+  "version" : 1
+}
