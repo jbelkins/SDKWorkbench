@@ -13,7 +13,7 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <TestPlans>
          <TestPlanReference
-            reference = "container:AWSIntegrationTests.xctestplan"
+            reference = "container:AWSProtocolTests.xctestplan"
             default = "YES">
          </TestPlanReference>
       </TestPlans>

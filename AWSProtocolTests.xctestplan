@@ -1,0 +1,122 @@
+{
+  "configurations" : [
+    {
+      "id" : "411A5DD5-4A94-446E-B8BC-919AFD28A5F2",
+      "name" : "AWS Protocol Tests",
+      "options" : {
+        "testExecutionOrdering" : "random"
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:..\/aws-sdk-swift",
+        "identifier" : "APIGatewayTestSDKTests",
+        "name" : "APIGatewayTestSDKTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/aws-sdk-swift",
+        "identifier" : "AWSJson1_0TestSDKTests",
+        "name" : "AWSJson1_0TestSDKTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/aws-sdk-swift",
+        "identifier" : "AWSJson1_1TestSDKTests",
+        "name" : "AWSJson1_1TestSDKTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/aws-sdk-swift",
+        "identifier" : "AWSQueryTestSDKTests",
+        "name" : "AWSQueryTestSDKTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/aws-sdk-swift",
+        "identifier" : "AWSRestJsonTestSDKTests",
+        "name" : "AWSRestJsonTestSDKTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/aws-sdk-swift",
+        "identifier" : "Ec2QueryTestSDKTests",
+        "name" : "Ec2QueryTestSDKTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/aws-sdk-swift",
+        "identifier" : "GlacierTestSDKTests",
+        "name" : "GlacierTestSDKTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/aws-sdk-swift",
+        "identifier" : "MachineLearningTestSDKTests",
+        "name" : "MachineLearningTestSDKTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/aws-sdk-swift",
+        "identifier" : "RestXmlTestSDKTests",
+        "name" : "RestXmlTestSDKTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/aws-sdk-swift",
+        "identifier" : "RestXmlWithNamespaceTestSDKTests",
+        "name" : "RestXmlWithNamespaceTestSDKTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/aws-sdk-swift",
+        "identifier" : "S3TestSDKTests",
+        "name" : "S3TestSDKTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/aws-sdk-swift",
+        "identifier" : "WaitersTests",
+        "name" : "WaitersTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/aws-sdk-swift",
+        "identifier" : "rest_json_extrasTests",
+        "name" : "rest_json_extrasTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/aws-sdk-swift",
+        "identifier" : "AwsQueryExtrasTests",
+        "name" : "AwsQueryExtrasTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/aws-sdk-swift",
+        "identifier" : "AWSRestJsonValidationTestSDKTests",
+        "name" : "AWSRestJsonValidationTestSDKTests"
+      }
+    }
+  ],
+  "version" : 1
+}

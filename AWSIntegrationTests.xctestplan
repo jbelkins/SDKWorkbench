@@ -32,6 +32,62 @@
         "identifier" : "AWSTranscribeStreamingIntegrationTests",
         "name" : "AWSTranscribeStreamingIntegrationTests"
       }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/aws-sdk-swift",
+        "identifier" : "AWSMediaConvertIntegrationTests",
+        "name" : "AWSMediaConvertIntegrationTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/aws-sdk-swift",
+        "identifier" : "AWSECSIntegrationTests",
+        "name" : "AWSECSIntegrationTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/aws-sdk-swift",
+        "identifier" : "AWSSQSIntegrationTests",
+        "name" : "AWSSQSIntegrationTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/aws-sdk-swift",
+        "identifier" : "AWSCloudFrontKeyValueStoreIntegrationTests",
+        "name" : "AWSCloudFrontKeyValueStoreIntegrationTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/aws-sdk-swift",
+        "identifier" : "AWSEventBridgeIntegrationTests",
+        "name" : "AWSEventBridgeIntegrationTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/aws-sdk-swift",
+        "identifier" : "AWSSTSIntegrationTests",
+        "name" : "AWSSTSIntegrationTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/aws-sdk-swift",
+        "identifier" : "AWSEC2IntegrationTests",
+        "name" : "AWSEC2IntegrationTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/aws-sdk-swift",
+        "identifier" : "AWSRoute53IntegrationTests",
+        "name" : "AWSRoute53IntegrationTests"
+      }
     }
   ],
   "version" : 1
