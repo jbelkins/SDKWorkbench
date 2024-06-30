@@ -10,4 +10,16 @@
    <FileRef
       location = "group:../smithy-swift">
    </FileRef>
+   <FileRef
+      location = "group:../aws-sdk-swift/codegen">
+   </FileRef>
+   <FileRef
+      location = "group:../aws-sdk-swift/IntegrationTests">
+   </FileRef>
+   <FileRef
+      location = "group:AWSProtocolTests.xctestplan">
+   </FileRef>
+   <FileRef
+      location = "group:AWSIntegrationTests.xctestplan">
+   </FileRef>
 </Workspace>
