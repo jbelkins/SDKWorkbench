@@ -1,0 +1,12 @@
+{
+  "authentication" : {
+
+  },
+  "registries" : {
+    "aws-sdk-swift" : {
+      "supportsAvailability" : false,
+      "url" : "https://d1b0xmm48lrxf5.cloudfront.net/"
+    }
+  },
+  "version" : 1
+}

@@ -1,10 +1,9 @@
-import ArgumentParser
 import AWSSTS
 
 @main
-struct CLIToolRun: AsyncParsableCommand {
+struct CLIToolRun {
 
-    func run() async throws {
+    static func main() async throws {
         let client = try STSClient(region: "us-east-1")
         let input = GetCallerIdentityInput()
         do {
