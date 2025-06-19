@@ -5,21 +5,9 @@
       location = "group:SDKWorkbench">
    </FileRef>
    <FileRef
-      location = "group:../aws-sdk-swift">
+      location = "container:../aws-sdk-swift">
    </FileRef>
    <FileRef
-      location = "group:../smithy-swift">
-   </FileRef>
-   <FileRef
-      location = "group:../aws-sdk-swift/codegen">
-   </FileRef>
-   <FileRef
-      location = "group:../aws-sdk-swift/IntegrationTests">
-   </FileRef>
-   <FileRef
-      location = "group:AWSProtocolTests.xctestplan">
-   </FileRef>
-   <FileRef
-      location = "group:AWSIntegrationTests.xctestplan">
+      location = "container:../smithy-swift">
    </FileRef>
 </Workspace>
