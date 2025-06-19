@@ -16,8 +16,3 @@ DerivedData/
 # VSCode
 .vscode/
 /SDKWorkbench/.devcontainer/.env
-
-# Local copies of packages
-/aws-sdk-swift
-/smithy-swift
-/aws-crt-swift
